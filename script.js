@@ -4,7 +4,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 // --- 1. THE TIMER LOGIC ---
-const birthDate = new Date(2000, 0, 1); // UPDATE THIS: (Year, Month[0-11], Day)
+const birthDate = new Date(2008, 7, 2); // UPDATE THIS: (Year, Month[0-11], Day)
 
 function updateTimer() {
     const now = new Date();
