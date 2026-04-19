@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffe1e1;
+    overflow: hidden;
+    font-family: "Courier New", Courier, monospace;
+}
+
+#main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#message {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 10;
+}
+
+#clock-box {
+    font-size: 20px;
+    margin-top: 20px;
+    color: #333;
+}
+
+.digit {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff4d4d;
+}
+
+canvas {
+    display: block;
+}
+
